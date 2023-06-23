@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body {
+    font-family: Roboto, serif;
+    background: #fff url(https://kartinkin.net/pics/uploads/posts/2022-08/1660324125_63-kartinkin-net-p-povtoryayushchiisya-fon-dlya-saita-krasivo-64.jpg) center center/cover no-repeat;
+}
+.nav-link {
+    color: aquamarine;
+}
+.navbar-nav .nav-link.active {
+    color: aqua;
+}
+.navbar-brand img {
+    width: 38px;
+}
+.navbar-toggler {
+    background-color: rgb(54, 57, 58);
+}
+.sidebar {
+    color: rgb(48, 52, 51);
+    /* background: linear-gradient(270deg, #55C8CC 0%, #2FA057 47%, #49A0B2 100%); */
+}
+
+/* .card{
+    background: linear-gradient(270deg, #55C8CC 0%, #2FA057 47%, #49A0B2 100%); ;
+} */
+.card a {
+    text-decoration: none;
+    color: black;
+}
+.slide-text,
+.footer-text {
+    margin: auto;
+	margin-top: 15em;
+}
+.footer {
+    background: aquamarine;
+    
+}
+.call {
+    width: 40px;
+    animation: myAnim 2s ease 0s infinite normal forwards;
+}
+.row a {
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes myAnim {
+	0%,
+	100% {
+		transform: translateX(0%);
+		transform-origin: 50% 50%;
+	}
+
+	15% {
+		transform: translateX(-30px) rotate(-6deg);
+	}
+
+	30% {
+		transform: translateX(15px) rotate(6deg);
+	}
+
+	45% {
+		transform: translateX(-15px) rotate(-3.6deg);
+	}
+
+	60% {
+		transform: translateX(9px) rotate(2.4deg);
+	}
+
+	75% {
+		transform: translateX(-6px) rotate(-1.2deg);
+	}
+}
+
+
+@media (max-width: 755px) {
+    .carousel-indicators {
+        display: none;
+    }
+}
